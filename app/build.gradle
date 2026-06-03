@@ -1,16 +1,16 @@
-plugins {
+﻿plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
 android {
     namespace 'com.example.helloworldkotlinandroid'
-    compileSdk 33
+    compileSdk 34 // Updated to meet modern Android requirements
 
     defaultConfig {
         applicationId "com.example.helloworldkotlinandroid"
         minSdk 30
-        targetSdk 33
+        targetSdk 34 // Updated to bypass the Play Protect block
         versionCode 1
         versionName "1.0"
 
